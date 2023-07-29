@@ -9,8 +9,8 @@ to numerical value by substracting 30h from it. after that it will divide the nu
 remainder that stored in ah register 🌶️
 
 ## decimal to binary 
-this program follows the same procedure as a parity checker to take the input from the user.
-to convert the number to binary it uses the method of flipped remainder(dividing the number by two and storing the remainder in reversed order)
+this program follows the same procedure as a parity checker to take the input from the user but it can process
+multiple digits.To convert the number to binary it uses the method of flipped remainder(dividing the number by two and storing the remainder in reversed order)
 - for storing remiander in reversed order it uses a stack
   ```  mov ax,bx
       mov bp,2
